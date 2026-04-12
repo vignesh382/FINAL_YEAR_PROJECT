@@ -46,7 +46,11 @@ This project uses the Individual Household Electric Power Consumption dataset to
 5.  **Prediction:** Generating a 24-hour look-ahead forecast.
 6.  **Visualization:** Displaying metrics and alerts on the dashboard.
 
+## ▶️ How to Run
 
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 ---
 ## 📷 Output
 The system provides:

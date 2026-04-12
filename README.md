@@ -50,6 +50,7 @@ This project uses the Individual Household Electric Power Consumption dataset to
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+---
 📷 Output
 The system provides:
 

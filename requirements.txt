@@ -1,0 +1,15 @@
+# Data Manipulation
+pandas
+numpy
+
+# Machine Learning
+xgboost
+scikit-learn
+
+# User Interface
+streamlit
+
+# Visualizations
+plotly
+matplotlib
+seaborn

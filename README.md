@@ -52,23 +52,28 @@ This project uses the Individual Household Electric Power Consumption dataset to
 pip install -r requirements.txt
 streamlit run app.py
 ```
-##📷 Output
+## 📷 Output
 The system provides:
+* **Electricity Demand Prediction (kW):** Real-time forecasting of power usage.
+* **24-Hour Predictive Horizon Graph:** Visual demand curve for the next day.
+* **Real-time Status Alerts:** Color-coded system notifications for grid health.
+* **Performance Error Metrics:** Detailed accuracy reporting using **RMSE**.
 
-Electricity Demand Prediction (kW): Real-time forecasting of power usage.
+## 🎯 Demand Interpretation
+* 🟢 **Below Threshold** → Stable Grid: No immediate action required.
+* 🟡 **Approaching Limit** → Warning: Monitoring required for potential load shifting.
+* 🔴 **Above Threshold** → Critical: Immediate **Peak Shaving** required to prevent failure.
 
-24-Hour Predictive Horizon Graph: Visual demand curve for the next day.
+## 📌 Future Improvements
+* Integrate real-time **Weather API** data for temperature-sensitive forecasting.
+* Deploy as a full cloud-based web application via **AWS** or **Azure**.
+* Add a **multi-user authentication system** for regional grid administrators.
 
-Real-time Status Alerts: Color-coded system notifications for grid health.
+## 💡 Real-World Application
+This system can be used by smart city planners and utility companies to:
+* **Prevent localized blackouts** by anticipating extreme demand.
+* **Reduce energy waste** through optimized supply management.
+* **Protect infrastructure** from thermal stress and transformer failure.
 
-Performance Error Metrics: Detailed accuracy reporting using RMSE.
-
-🎯 Demand Interpretation
-🟢 Below Threshold → Stable Grid
-
-🟡 Approaching Limit → Warning / Load Monitoring
-
-🔴 Above Threshold → Critical / Peak Shaving Required
-
-👩‍💻 Author
-VIGNESH KV Register No: 2328K0039
+## 👩‍💻 Author
+**VIGNESH KV**
